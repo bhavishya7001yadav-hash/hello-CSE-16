@@ -1,0 +1,14 @@
+h1{
+    color: rgb(82, 70, 18);
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(105, 81, 36);
+
+}
+body{
+    background-color: rgb(247, 222, 131);
+    font-family: Arial, sans-serif;
+}
