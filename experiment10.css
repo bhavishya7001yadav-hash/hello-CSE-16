@@ -1,0 +1,73 @@
+ /* Reset */
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+
+    body {
+      background:#A78BFA;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    /* Full-width top bar */
+    .topbar {
+      width: 100%;
+      height: 55px;
+      background:#4C1D95;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+    }
+
+    .logo {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #ffffff;
+    }
+
+    .menu {
+      display: flex;
+      gap: 35px;
+      font-size: 15px;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .right-actions {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      font-size: 15px;
+    }
+
+    .cart {
+      padding-left: 12px;
+      border-left: 1px solid rgba(255,255,255,0.25);
+    }
+
+    /* Main Section */
+    .main {
+      width: 100%;
+      height: calc(100vh - 55px); /* takes full desktop height */
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .main h1 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+
+    .main p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
