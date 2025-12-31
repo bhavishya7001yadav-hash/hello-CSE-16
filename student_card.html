@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Sign-up Form</title>
+    <link rel="stylesheet" href="asjasfsjk.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Student Sign-up Form</h1>
+
+      <div class="card">
+        <form>
+          <div class="field">
+            <label for="fullname">Full name</label>
+            <input id="fullname" type="text" placeholder="Enter your name" />
+          </div>
+
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="example@mail.com" />
+          </div>
+
+          <div class="field">
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="Your age" min="1" />
+          </div>
+
+          <div class="field">
+            <label for="password">Create password</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="At least 6 characters"
+            />
+          </div>
+
+          <div class="field">
+            <label>Gender</label>
+            <div class="radio-group">
+              <div class="option">
+                <input type="radio" name="gender" id="female" checked /><label
+                  for="female"
+                  >Female</label
+                >
+              </div>
+              <div class="option">
+                <input type="radio" name="gender" id="male" /><label for="male"
+                  >Male</label
+                >
+              </div>
+              <div class="option">
+                <input type="radio" name="gender" id="other" /><label
+                  for="other"
+                  >Other</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Interests (choose all that apply)</label>
+            <div class="checkbox-group">
+              <div class="option">
+                <input type="checkbox" id="coding" checked /><label for="coding"
+                  >Coding</label
+                >
+              </div>
+              <div class="option">
+                <input type="checkbox" id="drawing" /><label for="drawing"
+                  >Drawing</label
+                >
+              </div>
+              <div class="option">
+                <input type="checkbox" id="sports" /><label for="sports"
+                  >Sports</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="grade">Class / Grade</label>
+            <select id="grade">
+              <option selected>Select grade</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>College</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="about">Tell us (one line) about yourself</label>
+            <textarea id="about">aap bohot achha padhati ho maam</textarea>
+          </div>
+
+          <p class="small">Fields marked with * are required.</p>
+
+          <div class="actions">
+            <button type="reset" class="btn btn-reset">Reset</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
