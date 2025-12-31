@@ -1,0 +1,157 @@
+ :root {
+  --bg: #fff5f5;
+  --card: #ffffff;
+  --text: #4a0404;
+  --muted: #a07171;
+  --accent: #c53030;
+  --accent-light: #feb2b2;
+  --border: #f5cfcf;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    
+  margin: 0;
+  font-family: '', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  color: var(--text);
+}
+
+.page {
+  width: 600px;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  border-left: 5px solid var(--accent);
+  padding-left: 15px;
+}
+
+.card {
+  background: var(--card);
+  background-image: url(Gemini_Generated_Image_94316j94316j9431.png);
+  border-radius: 8px;
+  padding: 30px;
+  border: 1px solid var(--border);
+}
+
+form .field {
+  margin-bottom: 20px;
+  ;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  outline: none;
+  font-size: 14px;
+  background: #fff;
+  color: var(--text);
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--accent);
+  background: #fffafa;
+}
+
+.radio-group,
+.checkbox-group {
+  background-color: #fff;
+  border: 1px solid var(--border);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.option:last-child {
+  margin-bottom: 0;
+}
+
+.option input {
+  accent-color: var(--accent);
+}
+
+.option label {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.small {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #9b2c2c;
+}
+
+.btn-reset {
+  background: #fff1f1;
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+.btn-reset:hover {
+  background: var(--accent-light);
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+}
