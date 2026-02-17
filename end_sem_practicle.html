@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+
+<body style="background:#f2f2f2; display:flex; justify-content:center; align-items:center; height:100vh;">
+
+<div style="background:white; padding:20px; border:1px solid #ccc; width:300px; text-align:center;">
+
+<h2>Feedback Form</h2>
+
+<form>
+
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Rating:</label><br>
+    <input type="radio" name="rating" value="1" required>1
+    <input type="radio" name="rating" value="2">2
+    <input type="radio" name="rating" value="3">3
+    <input type="radio" name="rating" value="4">4
+    <input type="radio" name="rating" value="5">5
+    <br><br>
+
+    <label>Comments:</label><br>
+    <textarea name="comments" rows="4" cols="25" required></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</div>
+
+</body>
+</html>
